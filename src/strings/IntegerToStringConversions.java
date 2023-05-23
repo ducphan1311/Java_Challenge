@@ -10,7 +10,7 @@ public class IntegerToStringConversions {
 		
 		String str1 = Integer.toString(num1);
 		String str2 = Integer.toString(num2);
-		
+
 		System.out.println("String str1: " + str1);
 		System.out.println("String str2: " + str2);
 		
@@ -21,7 +21,6 @@ public class IntegerToStringConversions {
 		// Convert using Integer(int).toString()
 		String str4 = new Integer(num1).toString();
 		System.out.println("Integer to String: " + str4);
-		
 		// Convert using DecimalFormat
 		DecimalFormat df = new DecimalFormat("#,###");
 		String str5 = df.format(num1);
