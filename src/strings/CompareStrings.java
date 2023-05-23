@@ -28,6 +28,7 @@ public class CompareStrings {
 			System.out.println("\nComparing String with compareTo():");
 			System.out.println(s1.compareTo(s3));
 			System.out.println(s1.compareTo(s5));
+			System.out.println(s2.compareTo(s5));
 			//System.out.println(s6.compareTo(s7)); // NullPointerException
 		
 		} catch (Exception e) {
